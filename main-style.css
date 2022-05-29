@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: rgb(32, 40, 44);
+    padding: 10%;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    overflow: hidden;
+    padding: 7% 8%;
+    background-color: rgb(21, 45, 61);
+    border-radius: 12px;
+}
+.main-container img{
+    width: 100%;
+    border-radius: 8px;
+}
+.main-container h2{
+    margin-top: 8%;
+}
+.main-container p{
+    margin-top: 5%;
+    color: rgba(190, 190, 190, 0.8);
+    line-height: 200%;
+    font-size: medium;
+    font-weight: 700;
+}
+.eth{
+    margin-top: 5%;
+    display: flex;
+    gap: 30%;
+    margin-bottom:6% ;
+}
+.eth-left,.eth-right{
+    display: flex;
+    gap: 8%;
+    width: 50%;
+    align-items: center;
+    overflow: hidden;
+}
+.eth-left img{
+    display: inline-block;
+    width: 10%;
+    
+}
+.eth-left h4{
+    color: aquamarine;
+}
+.eth-right h5{
+    
+    color:rgba(190, 190, 190, 0.8);
+}
+.eth-right img{
+    display: inline-block;
+    width: 20%;
+
+}
+
+.pro{
+    display: flex;
+    border-top: 0.1px solid rgba(190, 190, 190, 0.8);
+    padding-top: 6%;
+    gap: 5%;
+}
+.pro img{
+    display: inline-block;
+    width: 16%;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.pro span{
+    color: #fff;
+}
