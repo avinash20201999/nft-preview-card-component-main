@@ -14,6 +14,7 @@ body{
 .main-container{
     overflow: hidden;
     padding: 7% 8%;
+    
     background-color: rgb(21, 45, 61);
     border-radius: 12px;
 }
@@ -80,7 +81,7 @@ body{
 }
 @media screen and (min-width:1440px) {
     body{
-        padding: 1% 35%;
+        padding: 4% 35%;
     }
     
     
